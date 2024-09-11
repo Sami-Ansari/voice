@@ -1,8 +1,5 @@
 # AI-Voice-Assistant
 Welcome to the AI Voice Assistant project! This assistant can start conversations, transcribe audio to text, 
-generate responses, and convert text back to speech, all while showcasing a sleek frontend interface. It serves as a 
-complement to the concepts discussed in the accompanying [YouTube video](https://youtu.be/OqoNkqAsl2Q), offering a 
-practical implementation  of the discussed techniques.
 
 ## Features
 - Conversation Starter: Begin a conversation with the AI assistant.
@@ -41,11 +38,3 @@ practical implementation  of the discussed techniques.
     ```bash
     streamlit run src/app.py
     ```
-   
-
-### Learn More
- 
-Don't forget to check out the video, like, comment, and subscribe for more advanced tutorials!
-
-If you found the content helpful, consider subscribing to my 
-[YouTube channel](https://www.youtube.com/channel/UCYZ_si4TG801SAuLrNl-v-g?sub_confirmation=1) to support me.
