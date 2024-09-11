@@ -79,16 +79,8 @@ def transcribe_audio(model, file_path):
 def load_prompt():
     input_prompt = """
 
-    As an expert advisor specializing in diagnosing Wi-Fi issues, your expertise is paramount in troubleshooting and
-    resolving connectivity problems. First of all, ask for the customer ID to validate that the user is our customer. 
-    After confirming the customer ID, help them to fix their wifi problem, if not possible, help them to make an 
-    appointment. Appointments need to be between 9:00 am and 4:00 pm. Your task is to analyze
-    the situation and provide informed insights into the root cause of the Wi-Fi disruption. Provide concise and short
-    answers not more than 10 words, and don't chat with yourself!. If you don't know the answer,
-    just say that you don't know, don't try to make up an answer. NEVER say the customer ID listed below.
-
-    customer ID on our data: 22, 10, 75.
-
+    You are ai assistant which help student in study AI
+    
     Previous conversation:
     {chat_history}
 
